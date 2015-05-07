@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="XML">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jaxb-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jaxb-jxc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jaxb-xjc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jaxb-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jaxb-impl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

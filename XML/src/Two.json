@@ -1,0 +1,1 @@
+{"plane":[{"origin":"USA","model":"Boeing","id":"0","parameters":{"lenght":"50.5","width":"20.1","height":"14.8"},"chars":{"radar":"true","class":"Pass"}},{"origin":"USSR","model":"SU","id":"1","parameters":{"lenght":"12.3","width":"7.7","height":"3.8"},"chars":{"radar":"true","class":"Military"}}]}

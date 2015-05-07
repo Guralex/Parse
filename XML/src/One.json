@@ -1,0 +1,36 @@
+{
+
+    "plane": [
+      {
+        "-id": "0",
+        "model": "Boeing",
+        "origin": "USA",
+        "chars": {
+          "class": "Pass",
+          "radar": "true"
+        },
+        "parameters": {
+          "length": "50.5",
+          "width": "20.1",
+          "height": "14.8"
+        },
+        "price": "10"
+      },
+      {
+        "-id": "1",
+        "model": "SU",
+        "origin": "USSR",
+        "chars": {
+          "class": "Military",
+          "radar": "true"
+        },
+        "parameters": {
+          "length": "12.3",
+          "width": "7.7",
+          "height": "3.8"
+        },
+        "price": "1000"
+      }
+    ]
+  
+}

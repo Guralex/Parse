@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<planes>
+
+ <plane id="0">
+  <model>Boeing</model>
+  <origin>USA</origin>
+  <chars>
+   <class>Pass</class>
+   <radar>true</radar>
+  </chars>
+  <parameters>
+   <length>50.5</length>
+   <width>20.1</width>
+   <height>14.8</height>
+  </parameters>
+  <price>10</price>
+ </plane>
+
+
+ <plane id="1">
+  <model>SU</model>
+  <origin>USSR</origin>
+  <chars>
+   <class>Military</class>
+   <radar>true</radar>
+  </chars>
+  <parameters>
+   <length>12.3</length>
+   <width>7.7</width>
+   <height>3.8</height>
+  </parameters>
+  <price>1000</price>
+ </plane>
+
+</planes>

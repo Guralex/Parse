@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<blogs>
+ <blog id="1">
+  <author>Pavel</author>
+  <language>Java</language>
+ </blog>
+ <blog id="2">
+  <author>Mat</author>
+  <language>C#</language>
+ </blog>
+</blogs>
