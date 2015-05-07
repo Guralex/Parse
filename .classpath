@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="XML/src"/>
+	<classpathentry kind="lib" path="XML/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="XML/jaxb-core.jar"/>
+	<classpathentry kind="lib" path="XML/jaxb-impl.jar"/>
+	<classpathentry kind="lib" path="XML/jaxb-jxc.jar"/>
+	<classpathentry kind="lib" path="XML/jaxb-xjc.jar"/>
+	<classpathentry kind="lib" path="XML/json-simple-1.1.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="XML/out/production/XML"/>
+</classpath>
