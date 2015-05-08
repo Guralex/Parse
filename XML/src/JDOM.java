@@ -14,14 +14,20 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-public class JDOM {
-static org.jdom2.Document jdomDoc;
+ class JDOM {
 
- public static void reader(ArrayList<plane> planes, String fileName) {
+
+ public static void byJDOM(ArrayList<plane> planes, String fileName) {
   
   try {
-            
-            jdomDoc = useDOMParser(fileName);
+	  		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+	  		DocumentBuilder dBuilder;
+	  		dBuilder = dbFactory.newDocumentBuilder();
+	  		Node doc =  dBuilder.parse(new File(fileName));
+	  		DOMBuilder domBuilder = new DOMBuilder();
+	  
+	  		org.jdom2.Document jdomDoc;
+            jdomDoc = domBuilder.build((org.w3c.dom.Document) doc);
             Element root = jdomDoc.getRootElement();
             List<Element> empListElements = root.getChildren("plane");
             
@@ -47,16 +53,6 @@ static org.jdom2.Document jdomDoc;
 
 
  }
- private static org.jdom2.Document useDOMParser(String fileName)
-            throws ParserConfigurationException, SAXException, IOException {
-        //creating DOM Document
-        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder dBuilder;
-        dBuilder = dbFactory.newDocumentBuilder();
-        Node doc =  dBuilder.parse(new File(fileName));
-        DOMBuilder domBuilder = new DOMBuilder();
-        return domBuilder.build((org.w3c.dom.Document) doc);
  
-    }
 
 }

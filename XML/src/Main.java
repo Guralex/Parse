@@ -60,7 +60,7 @@ public class Main {
        ArrayList<plane> planes2 = new ArrayList<plane>();
 
 
-      JDOM.reader(planes2, path);
+      JDOM.byJDOM(planes2, path);
         
         System.out.println(planes2);
 
