@@ -52,15 +52,15 @@ public class Main {
 	
 	public static void main(String[] args)
     {
-    	String path="C:\\Users\\Alexander\\git\\Parse\\XML\\src\\One.xml";     		//после залива на гит не работало по другому 
-    	String path2="C:\\Users\\Alexander\\git\\Parse\\XML\\src\\Copy of One.xml";//- извиняюсь за хардкодинг
-    	String jpath="C:\\Users\\Alexander\\git\\Parse\\XML\\src\\One.json";
-    	String jpathTO="C:\\Users\\Alexander\\git\\Parse\\XML\\src\\Two.json";
+    	String path="src\\One.xml";     		//после залива на гит не работало по другому 
+    	String path2="src\\Copy of One.xml";//- извиняюсь за хардкодинг
+    	String jpath="src\\One.json";
+    	String jpathTO="src\\Two.json";
        ArrayList<plane> planes = new ArrayList<plane>();
        ArrayList<plane> planes2 = new ArrayList<plane>();
 
 
-       Parsers.bySax(path,planes2);
+      JDOM.reader(planes2, path);
         
         System.out.println(planes2);
 

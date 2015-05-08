@@ -1,10 +1,14 @@
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
+
+
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
@@ -23,6 +27,8 @@ import org.xml.sax.helpers.DefaultHandler;
 public class Parsers {
 
 
+	
+	
 	
 	public static void byDom(String path,ArrayList<plane> planes){
 		
@@ -64,8 +70,25 @@ public class Parsers {
             e.printStackTrace();
         }
 	}
+	
+	
+	
+	public static void byJDom(String path,ArrayList<plane> planes){
+		
+		
+		
+
+		
+		
+	}
+	
+	
+	
+	
 	/*
-	public static void byJaxb(String path,ArrayList<plane> planes){
+	
+
+public static void byJaxb(String path,ArrayList<plane> planes){
 		
 
 		try {
